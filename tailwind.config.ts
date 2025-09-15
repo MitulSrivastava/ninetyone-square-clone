@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Brand colors
+        brand: {
+          red: "hsl(var(--brand-red))",
+          "red-hover": "hsl(var(--brand-red-hover))",
+          "red-foreground": "hsl(var(--brand-red-foreground))",
+        },
+        // Dark theme
+        dark: {
+          bg: "hsl(var(--dark-bg))",
+          card: "hsl(var(--dark-card))",
+          foreground: "hsl(var(--dark-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
